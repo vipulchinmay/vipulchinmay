@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:4c1d95,100:6d28d9&height=220&section=header&text=M%20Sai%20Vipul%20Chinmay&fontSize=42&fontColor=e9d5ff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Search%20%26%20Ranking%20Systems%20%7C%20LLM%20Pipelines&descAlignY=55&descSize=18" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+LLM+%2B+RAG+Pipelines;Multi-Agent+AI+Architectures;Search+Relevance+%26+Learning-to-Rank;AWS+Certified+Solutions+Architect" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+LLM+%2B+RAG+Pipelines;Multi-Agent+AI+Architectures;Search+Relevance+%26+Learning-to-Rank;AWS+%26+Anthropic+Certified" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -38,7 +38,7 @@ location: Hyderabad, India
 
 I'm a final-year Computer Science undergraduate and **AI Engineer Intern at Krignal Technologies**, where I design and ship LLM pipelines, multi-agent AI architectures, and RAG systems that power real-time content generation, tagging, and insight delivery for professional communities. My engineering foundation spans backend systems, distributed data stores, and full-stack product delivery, layered with a deep specialization in **information retrieval, learning-to-rank, and semantic search**.
 
-I care about the intersection of classical IR (BM25, TF-IDF) and modern neural retrieval — building systems that are not just accurate offline, but fast, scalable, and production-ready. AWS Certified Solutions Architect, and comfortable owning a feature from data pipeline to deployed API.
+I care about the intersection of classical IR (BM25, TF-IDF) and modern neural retrieval — building systems that are not just accurate offline, but fast, scalable, and production-ready. Comfortable owning a feature from data pipeline to deployed API, with hands-on cloud experience through AWS's Solutions Architecture simulation and a growing set of Anthropic Claude / AI-fluency credentials.
 
 **🔭 Open To:** AI/ML Engineering roles · Search & Ranking Engineering · Backend/Full-Stack roles with an ML surface · Research collaborations in IR & LLM systems
 
@@ -106,7 +106,7 @@ Two-stage retrieval system combining BM25 candidate generation with a cross-enco
 | **Performance** | 12% NDCG@10 improvement over BM25 baseline |
 | **Latency** | Sub-200ms P95 on deployed serving endpoint |
 | **Impact** | Offline A/B evaluation framework for ranking approach comparison |
-| **Repository** | _Add link_ |
+| **Repository** | Private — actively in development |
 
 Built as an end-to-end demonstration of production-grade search relevance engineering — from candidate generation through reranking to a deployed, latency-optimized API.
 
@@ -125,7 +125,7 @@ A RAG-powered application that ingests educational documents and generates struc
 | **Performance** | Factual consistency evaluation on generated quiz content |
 | **Security** | Structured output generation reduces hallucination risk |
 | **Impact** | Natural language interface for tailored quiz generation |
-| **Repository** | _Add link_ |
+| **Repository** | [github.com/spentuker/projectseekhan](https://github.com/spentuker/projectseekhan) |
 
 Focused on marrying retrieval-grounded generation with a genuinely usable, low-friction interface for non-technical educators.
 
@@ -144,9 +144,28 @@ A full-stack MERN application that extracts medicine details from images via OCR
 | **Performance** | Fine-tuned medical QA model for domain-specific responses |
 | **Security** | Dockerized deployment on AWS |
 | **Impact** | Geolocation-based hospital discovery + medication tracking dashboard |
-| **Repository** | _Add link_ |
+| **Repository** | [github.com/vipulchinmay/projectaushadX](https://github.com/vipulchinmay/projectaushadX) |
 
 Designed to make medicine information accessible across language barriers, pairing OCR extraction with a domain-tuned QA model.
+
+</details>
+
+<details>
+<summary><b>🎙️ AiVoiceAssistant</b></summary>
+<br/>
+
+_Add a short description of what this project does and what problem it solves._
+
+| Aspect | Detail |
+|---|---|
+| **Stack** | _Add tech stack_ |
+| **Scale** | _Add details_ |
+| **Performance** | _Add details_ |
+| **Security** | _Add details_ |
+| **Impact** | _Add details_ |
+| **Repository** | [github.com/vipulchinmay/AiVoiceAssistant](https://github.com/vipulchinmay/AiVoiceAssistant) |
+
+_Add a 2-3 sentence explanation once the details above are filled in._
 
 </details>
 
@@ -175,7 +194,7 @@ Designing and building AI-driven backend services powering content generation, t
 
 | Recognition | Details |
 |---|---|
-| AWS Certified Solutions Architect | Cloud architecture & infrastructure design |
+| AWS Solutions Architecture Job Simulation (Forage) | Designing a simple, scalable hosting architecture |
 | 12% NDCG@10 Improvement | Search Ranking Pipeline project result vs. BM25 baseline |
 
 </div>
@@ -184,18 +203,34 @@ Designing and building AI-driven backend services powering content generation, t
 
 ## 📜 Certifications
 
-**AWS**
+**Anthropic (Claude)**
 
-![AWS Certified Solutions Architect](https://img.shields.io/badge/AWS%20Certified%20Solutions%20Architect-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Claude 101](https://img.shields.io/badge/Claude%20101-6d28d9?style=for-the-badge&labelColor=0f0524)
+![Claude Code 101](https://img.shields.io/badge/Claude%20Code%20101-4c1d95?style=for-the-badge&labelColor=0f0524)
+![Claude Platform 101](https://img.shields.io/badge/Claude%20Platform%20101-7c3aed?style=for-the-badge&labelColor=0f0524)
 
-<!-- Add additional certifications (Oracle, NPTEL, Cisco, etc.) here as badges once confirmed -->
+**Anthropic — AI Fluency Program**
+
+- AI Fluency: Framework & Foundations
+- Teaching the AI Fluency Framework
+- AI Fluency for Students
+- AI Fluency for Educators
+- AI Fluency for Nonprofits — with GivingTuesday
+- AI Fluency for Small Businesses — with PayPal
+
+**Forage Job Simulations**
+
+- Accenture — Software Engineering Job Simulation (Aug 2025)
+- AWS — Solutions Architecture Job Simulation (Jun 2025)
+
+<!-- Add Oracle / NPTEL / Cisco certifications here as badges once confirmed -->
 
 <br/>
 
 ## 💻 Coding Profiles
 
 <p>
-  <a href="#"><img src="https://img.shields.io/badge/LeetCode-6d28d9?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/M_Sai_Vipul_Chinmay/"><img src="https://img.shields.io/badge/LeetCode-6d28d9?style=for-the-badge&logo=leetcode&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/GeeksforGeeks-4c1d95?style=for-the-badge&logo=geeksforgeeks&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/HackerRank-7c3aed?style=for-the-badge&logo=hackerrank&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/CodeChef-5b21b6?style=for-the-badge&logo=codechef&logoColor=white" /></a>
@@ -210,7 +245,7 @@ Designing and building AI-driven backend services powering content generation, t
 <div align="center">
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=vipulchinmay&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0524&title_color=a78bfa&icon_color=8b5cf6&text_color=e9d5ff" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=vipulchinmay&theme=tokyonight&hide_border=true&background=0f0524&ring=8b5cf6&fire=a78bfa&currStreakLabel=e9d5ff" />
+<img height="165" src="https://streak-stats.demolab.com/?user=vipulchinmay&theme=tokyonight&hide_border=true&background=0f0524&ring=8b5cf6&fire=a78bfa&currStreakLabel=e9d5ff" />
 
 <img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vipulchinmay&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0524&title_color=a78bfa&text_color=e9d5ff" />
 
