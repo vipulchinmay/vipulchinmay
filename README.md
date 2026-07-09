@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0524,50:4c1d95,100:6d28d9&height=220&section=header&text=M%20Sai%20Vipul%20Chinmay&fontSize=42&fontColor=e9d5ff&animation=fadeIn&fontAlignY=35&desc=AI%20Engineer%20%7C%20Search%20%26%20Ranking%20Systems%20%7C%20LLM%20Pipelines&descAlignY=55&descSize=18" width="100%"/>
+<img src="assets/banner.svg" width="100%"/>
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=700&lines=Building+LLM+%2B+RAG+Pipelines;Multi-Agent+AI+Architectures;Search+Relevance+%26+Learning-to-Rank;AWS+%26+Anthropic+Certified" alt="Typing SVG" />
@@ -267,7 +267,7 @@ Designing and building AI-driven backend services powering content generation, t
 
 <div align="center">
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=vipulchinmay&theme=tokyo-night&bg_color=0f0524&color=a78bfa&line=8b5cf6&point=e9d5ff&hide_border=true" />
+<img width="100%" src="assets/activity-graph.svg" />
 
 </div>
 
@@ -324,6 +324,6 @@ Open To:
 
 _"Relevance is not a feature — it's the product."_
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6d28d9,50:4c1d95,100:0f0524&height=120&section=footer" width="100%"/>
+<img src="assets/footer.svg" width="100%"/>
 
 </div>
