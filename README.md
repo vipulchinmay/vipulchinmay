@@ -244,10 +244,10 @@ Designing and building AI-driven backend services powering content generation, t
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=vipulchinmay&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0524&title_color=a78bfa&icon_color=8b5cf6&text_color=e9d5ff" />
-<img height="165" src="https://streak-stats.demolab.com/?user=vipulchinmay&theme=tokyonight&hide_border=true&background=0f0524&ring=8b5cf6&fire=a78bfa&currStreakLabel=e9d5ff" />
+<img height="165" src="assets/stats.svg" />
+<img height="165" src="assets/streak.svg" />
 
-<img width="100%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vipulchinmay&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0524&title_color=a78bfa&text_color=e9d5ff" />
+<img width="100%" src="assets/top-langs.svg" />
 
 </div>
 
@@ -257,7 +257,7 @@ Designing and building AI-driven backend services powering content generation, t
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=vipulchinmay&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" />
+<img src="assets/trophy.svg" />
 
 </div>
 
