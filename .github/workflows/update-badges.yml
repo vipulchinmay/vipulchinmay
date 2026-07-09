@@ -1,0 +1,47 @@
+name: Update profile badges
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # refresh every 6 hours
+  workflow_dispatch:          # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create assets folder
+        run: mkdir -p assets
+
+      - name: Fetch stats card
+        run: >
+          curl -sf "https://github-readme-stats.vercel.app/api?username=vipulchinmay&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0f0524&title_color=a78bfa&icon_color=8b5cf6&text_color=e9d5ff"
+          -o assets/stats.svg.tmp && mv assets/stats.svg.tmp assets/stats.svg || echo "stats fetch failed, keeping previous version"
+
+      - name: Fetch top languages
+        run: >
+          curl -sf "https://github-readme-stats.vercel.app/api/top-langs/?username=vipulchinmay&layout=compact&theme=tokyonight&hide_border=true&bg_color=0f0524&title_color=a78bfa&text_color=e9d5ff"
+          -o assets/top-langs.svg.tmp && mv assets/top-langs.svg.tmp assets/top-langs.svg || echo "top-langs fetch failed, keeping previous version"
+
+      - name: Fetch streak stats
+        run: >
+          curl -sf "https://streak-stats.demolab.com/?user=vipulchinmay&theme=tokyonight&hide_border=true&background=0f0524&ring=8b5cf6&fire=a78bfa&currStreakLabel=e9d5ff"
+          -o assets/streak.svg.tmp && mv assets/streak.svg.tmp assets/streak.svg || echo "streak fetch failed, keeping previous version"
+
+      - name: Fetch trophies
+        run: >
+          curl -sf "https://github-profile-trophy.vercel.app/?username=vipulchinmay&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8"
+          -o assets/trophy.svg.tmp && mv assets/trophy.svg.tmp assets/trophy.svg || echo "trophy fetch failed, keeping previous version"
+
+      - name: Commit changes if any
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/*.svg
+          git diff --staged --quiet || git commit -m "Refresh profile badges"
+          git push
