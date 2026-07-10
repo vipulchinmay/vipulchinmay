@@ -12,7 +12,7 @@
 ![Location](https://img.shields.io/badge/Location-Hyderabad,%20India-4c1d95?style=flat-square&labelColor=0f0524)
 
 <p>
-  <a href="https://linkedin.com/in/vipulchinmay"><img src="https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f0524" /></a>
+  <a href="https://vipulchinmay.vercel.app"><img src="https://img.shields.io/badge/Portfolio-8b5cf6?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0f0524" /></a>
   <a href="https://linkedin.com/in/vipulchinmay"><img src="https://img.shields.io/badge/LinkedIn-7c3aed?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0f0524" /></a>
   <a href="mailto:m.sai.vipul.18@gmail.com"><img src="https://img.shields.io/badge/Email-6d28d9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0f0524" /></a>
   <a href="https://github.com/vipulchinmay"><img src="https://img.shields.io/badge/GitHub-5b21b6?style=for-the-badge&logo=github&logoColor=white&labelColor=0f0524" /></a>
